@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PlayList Cirroz Candelaz 25 años</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="player-container">
+        <!-- IMAGEN 1: Superior -->
+        <div class="header-logo">
+            <img src="imagenes/cirroz.png" alt="Imagen superior" class="img-logo">
+        </div>
+
+        <h1>PlayList Cirroz Candelaz 25 años</h1>
+
+        <!-- IMAGEN 2: Central / Portada -->
+        <div class="banner-container">
+            <img src="imagenes/centralistas.png" alt="Portada musical" class="img-banner">
+        </div>
+        
+        <div class="now-playing">
+            <p id="track-title">Selecciona una canción</p>
+            <audio id="audio-player" controls></audio>
+        </div>
+
+        <ul id="playlist" class="playlist">
+            <!-- Las canciones se cargarán automáticamente desde script.js -->
+        </ul>
+
+        <!-- IMAGEN 3: Inferior / Pie de página -->
+        <div class="footer-decor">
+            <img src="imagenes/candelaz.png" alt="Imagen inferior" class="img-footer">
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
